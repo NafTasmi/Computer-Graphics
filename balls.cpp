@@ -1,16 +1,7 @@
 #include <graphics.h>
 #include <bits/stdc++.h>
 using namespace std;
-void drawB()
-{
-    int NIP = 7;
-    setfillstyle(SOLID_FILL, NIP);
-    fillellipse(200, 200 + 10, 10, 10);
-    fillellipse(300, 200 + 10, 10, 10);
-    // outline
-    arc(200, 200, 180, 340, 50);
-    arc(300, 200, 200, 360, 50);
-}
+
 int getDir()
 {
     int dir = rand() % 6;
